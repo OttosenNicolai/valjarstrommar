@@ -1,0 +1,148 @@
+.valu-fallback {
+  background-color: #FEEFB3;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.js .valu-fallback {
+  display: none;
+}
+
+.no-js .valu-interactive {
+  display: none;
+}
+
+.valu-clear {
+  clear: both;
+}
+
+.valu-header {
+  margin: 1em 0 0;
+}
+
+a.valu-header__sign {
+  background-color: #cc6d2a;
+  color: #fff;
+  display: inline-block;
+  float: right;
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 1.3em;
+  margin: 6px 20px 0 10px;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+a.valu-header__sign:hover {
+  color: #fff;
+}
+
+.valu-header__heading {
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 3.1em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.valu-header__subheading {
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 10px 0 0;
+}
+
+.valu-header--reversed {
+  margin: 1em 0 0;
+}
+.valu-header--reversed a.valu-header__sign--reversed {
+  background-color: #cc6d2a;
+  color: #fff;
+  display: inline-block;
+  float: right;
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 1.3em;
+  margin: 6px 20px 0 10px;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+.valu-header--reversed a.valu-header__sign--reversed:hover {
+  color: #fff;
+}
+.valu-header--reversed .valu-header__heading--reversed {
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 3.1em;
+  font-weight: bold;
+  line-height: 1;
+}
+.valu-header--reversed .valu-header__subheading--reversed {
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: -1em;
+  padding: 10px 0 0;
+}
+
+.valu-article {
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+.valu-article .valu-article__lead {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 13px 0;
+}
+.valu-article .valu-article__main {
+  float: left;
+  width: 68.118%;
+}
+.valu-article .valu-article__main p {
+  margin-bottom: 12px;
+}
+.valu-article .valu-article__aside {
+  float: right;
+  width: 29.859%;
+}
+
+@media only screen and (max-width: 800px) {
+  .valu-article .valu-article__main {
+    width: 100%;
+  }
+  .valu-article .valu-article__main p {
+    margin-bottom: 12px;
+  }
+  .valu-article .valu-article__aside {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .valu-header .valu-header__heading {
+    font-size: 1.85em;
+    margin-top: -1em;
+  }
+  .valu-header .valu-header__heading.flow {
+    margin-top: 0;
+  }
+  .valu-header .valu-header__subheading {
+    float: none;
+    font-size: 1.1em;
+  }
+  .valu-header .valu-header__sign {
+    margin-right: 0;
+  }
+
+  .valu-header--reversed .valu-header__heading--reversed {
+    font-size: 1.85em;
+  }
+  .valu-header--reversed .valu-header__subheading--reversed {
+    float: none;
+    font-size: 1.1em;
+    margin-top: 0;
+  }
+  .valu-header--reversed .valu-clear {
+    clear: none;
+  }
+
+  .valu-dropdown {
+    width: 100%;
+  }
+}

@@ -1,0 +1,191 @@
+.valu-fallback {
+  background-color: #FEEFB3;
+  margin: 10px 0;
+  padding: 10px; }
+
+.js .valu-fallback {
+  display: none; }
+
+.no-js .valu-interactive {
+  display: none; }
+
+.valu-clear {
+  clear: both; }
+
+.valu-header {
+  margin: 1em 0 0; }
+
+a.valu-header__sign {
+  background-color: #cc6d2a;
+  color: #fff;
+  display: inline-block;
+  float: right;
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 1.3em;
+  margin: 6px 20px 0 10px;
+  padding: 6px 12px;
+  text-decoration: none; }
+  a.valu-header__sign:hover {
+    color: #fff; }
+
+.valu-header__heading {
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 3.1em;
+  font-weight: bold;
+  line-height: 1; }
+
+.valu-header__subheading {
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 10px 0 0; }
+
+.valu-header--reversed {
+  margin: 1em 0 0; }
+  .valu-header--reversed a.valu-header__sign--reversed {
+    background-color: #cc6d2a;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+    font-size: 1.3em;
+    margin: 6px 20px 0 10px;
+    padding: 6px 12px;
+    text-decoration: none; }
+    .valu-header--reversed a.valu-header__sign--reversed:hover {
+      color: #fff; }
+  .valu-header--reversed .valu-header__heading--reversed {
+    font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+    font-size: 3.1em;
+    font-weight: bold;
+    line-height: 1; }
+  .valu-header--reversed .valu-header__subheading--reversed {
+    font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: -1em;
+    padding: 10px 0 0; }
+
+.valu-article {
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 14px;
+  line-height: 18px; }
+  .valu-article .valu-article__lead {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 13px 0; }
+  .valu-article .valu-article__main {
+    float: left;
+    width: 68.118%; }
+    .valu-article .valu-article__main p {
+      margin-bottom: 12px; }
+  .valu-article .valu-article__aside {
+    float: right;
+    width: 29.859%; }
+
+@media only screen and (max-width: 800px) {
+  .valu-article .valu-article__main {
+    width: 100%; }
+    .valu-article .valu-article__main p {
+      margin-bottom: 12px; }
+  .valu-article .valu-article__aside {
+    width: 100%; } }
+@media only screen and (max-width: 400px) {
+  .valu-header .valu-header__heading {
+    font-size: 1.85em;
+    margin-top: -1em; }
+  .valu-header .valu-header__heading.flow {
+    margin-top: 0; }
+  .valu-header .valu-header__subheading {
+    float: none;
+    font-size: 1.1em; }
+  .valu-header .valu-header__sign {
+    margin-right: 0; }
+
+  .valu-header--reversed .valu-header__heading--reversed {
+    font-size: 1.85em; }
+  .valu-header--reversed .valu-header__subheading--reversed {
+    float: none;
+    font-size: 1.1em;
+    margin-top: 0; }
+  .valu-header--reversed .valu-clear {
+    clear: none; }
+
+  .valu-dropdown {
+    width: 100%; } }
+.js.no-svg .valu-fallback {
+  display: block; }
+
+.no-svg .valu-interactive {
+  display: none; }
+
+.party-box {
+  cursor: pointer; }
+  .party-box.s {
+    fill: #c13b38; }
+  .party-box.v {
+    fill: #b02522; }
+  .party-box.mp {
+    fill: #acc768; }
+  .party-box.c {
+    fill: #78ae5a; }
+  .party-box.m {
+    fill: #88c7d9; }
+  .party-box.fp {
+    fill: #378cab; }
+  .party-box.kd {
+    fill: #366da3; }
+  .party-box.sd {
+    fill: #e7d960; }
+  .party-box.fi {
+    fill: #b9527d; }
+
+.flowchart-dynamic-title {
+  font-size: 1.5em;
+  text-align: center; }
+
+.party-short {
+  fill: #fff;
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 1.15em;
+  font-weight: bold;
+  pointer-events: none;
+  text-anchor: middle; }
+
+.main-header {
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 2.45em;
+  font-weight: bold;
+  letter-spacing: -.03em;
+  margin: 25px 0 30px;
+  overflow: hidden;
+  padding-top: 2px; }
+
+#flowchart {
+  height: 470px;
+  margin-top: 1.8em;
+  min-height: 450px;
+  padding: 1em 0 0;
+  width: 100%; }
+  #flowchart:focus {
+    outline: none !important; }
+
+.flowchart-label {
+  font-size: 1.4em;
+  font-weight: bold; }
+
+.flowchart-label--from {
+  float: left;
+  margin-left: 48px; }
+
+.flowchart-label--to {
+  float: right;
+  margin-right: 48px; }
+
+.percentage-label {
+  fill: #000;
+  font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", "Bitstream Vera Sans", sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-anchor: middle; }
